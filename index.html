@@ -11,6 +11,18 @@
     #play span{
         background-color: yellow;
     }*/
+    #play span {
+   /* explicitly declare background color */
+   background-color: white;
+   padding: 2px 4px;
+   border-radius: 4px;
+  
+   /*
+       Tells the browser to animate changes over 0.3 seconds with a smooth 'ease'
+   */
+   transition: background-color 0.3s ease, text-shadow 0.3s ease, box-shadow 0.3s ease;
+}
+
   </style>
  </head>
  <body>
