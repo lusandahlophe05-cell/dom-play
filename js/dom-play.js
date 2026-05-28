@@ -7,3 +7,10 @@
   
    HTML "hooks" may be added to the page for proper operation        */
 
+      const spans = document.querySelectorAll("play");
+
+      console.log(spans);
+
+      for (const mySpan of spans){
+         mySpan.style.backgroundcolor = "yellow";
+      }
